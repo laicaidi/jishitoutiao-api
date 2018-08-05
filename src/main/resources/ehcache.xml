@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd"
+         updateCheck="true" monitoring="autodetect"
+         dynamicConfig="true">
+
+    <diskStore path="java.io.tmpdir"/>
+
+    <transactionManagerLookup class="net.sf.ehcache.transaction.manager.DefaultTransactionManagerLookup"
+                              properties="jndiName=java:/TransactionManager" propertySeparator=";"/>
+
+    <cacheManagerEventListenerFactory class="com.jishitoutiao.cache.CustomerCacheManagerEventListenerFactory" properties=""/>
+
+    <!--
+    <defaultCache
+    	name="invicmeCache"  名称
+        maxEntriesLocalHeap="10000"	内存中缓存最大数目
+        maxEntriesLocalDisk="10000000" 硬盘中缓存最大数目
+        eternal="false"	 缓存是否持久
+        timeToIdleSeconds="120"	当缓存闲置n秒后销毁
+        timeToLiveSeconds="120"	当缓存存活n秒后销毁
+        overflowToDisk="true"	当系统当机时,是否保存到磁盘
+        diskExpiryThreadIntervalSeconds="120" 对象检测线程运行时间间隔为120秒，标识对象状态的线程120秒运行一次。
+        memoryStoreEvictionPolicy="LRU"  如果内存中数据超过内存限制，向磁盘缓存时的策略。默认值LRU，可选FIFO、LFU。
+        	缓存的3 种清空策略 ：
+　　			１、FIFO ，first in first out (先进先出).
+　　			２、LFU ， Less Frequently Used (最少使用).
+					意思是一直以来最少被使用的。缓存的元素有一个hit 属性，hit 值最小的将会被清出缓存。
+　　			３、LRU ，Least Recently Used(最近最少使用).
+					(ehcache 默认值).缓存的元素有一个时间戳，当缓存容量满了，而又需要腾出地方来缓存新的元素的时候，
+					那么现有缓存元素中时间戳离当前时间最远的元素将被清出缓存。
+		diskSpoolBufferSizeMB： DiskStore使用的磁盘大小，默认值30MB。每个cache使用各自的DiskStore。
+		diskPersistent： 是否在磁盘上持久化。指重启jvm后，数据是否有效。默认为false。
+
+		overflowToDisk和diskPersistent、DiskStoreBootstrapCacheLoaderFactory是
+            在2.5及之前版本拥有的参数；
+            2.6及之后的版本建议使用<persistence>或<terracotta>来代替，参阅ehcache.xsd。
+            <persistence strategy="localTempSwap"/>
+            或
+            <persistence strategy="none"/>
+    />
+	-->
+
+    <defaultCache
+            maxEntriesLocalHeap="10000"
+            maxEntriesLocalDisk="100000"
+            eternal="false"
+            diskSpoolBufferSizeMB="20"
+            timeToIdleSeconds="300"
+            timeToLiveSeconds="600"
+            diskExpiryThreadIntervalSeconds="1200"
+            memoryStoreEvictionPolicy="LRU"
+            transactionalMode="off">
+        <!--<terracotta/>-->
+    </defaultCache>
+
+    <cache name="entityCache"
+           maxEntriesLocalHeap="10000"
+           maxEntriesLocalDisk="100000"
+           eternal="false"
+           diskSpoolBufferSizeMB="20"
+           timeToIdleSeconds="300"
+           timeToLiveSeconds="600"
+           diskExpiryThreadIntervalSeconds="1200"
+           memoryStoreEvictionPolicy="LRU"
+           transactionalMode="off">
+        <persistence strategy="localTempSwap"/>
+        <cacheEventListenerFactory class="com.jishitoutiao.cache.CustomerCacheEventListenerFactory" />
+    </cache>
+
+    <cache name="org.hibernate.cache.internal.StandardQueryCache"
+           maxEntriesLocalHeap="5" eternal="false" timeToLiveSeconds="120">
+        <persistence strategy="localTempSwap" />
+        <cacheEventListenerFactory class="com.jishitoutiao.cache.CustomerCacheEventListenerFactory" />
+    </cache>
+
+    <cache name="org.hibernate.cache.spi.UpdateTimestampsCache"
+           maxEntriesLocalHeap="5000" eternal="true">
+        <persistence strategy="localTempSwap" />
+        <cacheEventListenerFactory class="com.jishitoutiao.cache.CustomerCacheEventListenerFactory" />
+    </cache>
+
+</ehcache>

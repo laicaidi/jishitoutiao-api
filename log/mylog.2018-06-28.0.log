@@ -1,0 +1,4 @@
+2018-06-28 10:29:56,786 INFO (CustomerCacheManagerEventListener.java:32)- ehcache dispose...
+2018-06-28 10:29:56,819 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-28 10:29:56,848 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-28 10:29:56,862 INFO (CustomerCacheEventListener.java:51)- cache dispose.

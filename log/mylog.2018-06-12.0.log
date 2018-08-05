@@ -1,0 +1,18 @@
+2018-06-12 14:02:26,485 INFO (StartupInfoLogger.java:50)- Starting Application on leitianxiangdeMacBook-Pro.local with PID 43378 (/Users/leitianxiang/Workspaces/intelli/jishitoutiao-api/target/classes started by leitianxiang in /Users/leitianxiang/Workspaces/intelli/jishitoutiao-api)
+2018-06-12 14:02:26,503 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2018-06-12 14:02:26,508 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2018-06-12 14:02:57,984 INFO (WebSecurityConfig.java:39)- WebSecurityConfig.configure run...
+2018-06-12 14:02:59,092 INFO (CustomerCacheManagerEventListener.java:22)- init ehcache...
+2018-06-12 14:02:59,183 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... org.hibernate.cache.internal.StandardQueryCache
+2018-06-12 14:02:59,183 INFO (CustomerCacheManagerEventListener.java:38)- [ name = org.hibernate.cache.internal.StandardQueryCache status = STATUS_ALIVE eternal = false overflowToDisk = true maxEntriesLocalHeap = 5 maxEntriesLocalDisk = 0 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 120 timeToIdleSeconds = 0 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 120 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-12 14:02:59,190 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... entityCache
+2018-06-12 14:02:59,191 INFO (CustomerCacheManagerEventListener.java:38)- [ name = entityCache status = STATUS_ALIVE eternal = false overflowToDisk = true maxEntriesLocalHeap = 10000 maxEntriesLocalDisk = 100000 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 600 timeToIdleSeconds = 300 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 1200 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-12 14:02:59,196 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... org.hibernate.cache.spi.UpdateTimestampsCache
+2018-06-12 14:02:59,196 INFO (CustomerCacheManagerEventListener.java:38)- [ name = org.hibernate.cache.spi.UpdateTimestampsCache status = STATUS_ALIVE eternal = true overflowToDisk = true maxEntriesLocalHeap = 5000 maxEntriesLocalDisk = 0 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 0 timeToIdleSeconds = 0 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 120 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-12 14:02:59,673 INFO (StartupInfoLogger.java:59)- Started Application in 34.151 seconds (JVM running for 36.108)
+2018-06-12 14:03:12,725 INFO (JWTAuthenticationFilter.java:42)- authHeader: null
+2018-06-12 14:03:13,285 INFO (JWTAuthenticationFilter.java:42)- authHeader: null
+2018-06-12 18:15:00,262 INFO (CustomerCacheManagerEventListener.java:32)- ehcache dispose...
+2018-06-12 18:15:00,305 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-12 18:15:00,398 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-12 18:15:00,408 INFO (CustomerCacheEventListener.java:51)- cache dispose.

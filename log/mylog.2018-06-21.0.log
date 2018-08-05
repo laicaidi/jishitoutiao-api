@@ -1,0 +1,142 @@
+2018-06-21 10:47:13,165 INFO (CustomerCacheManagerEventListener.java:32)- ehcache dispose...
+2018-06-21 10:47:13,344 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-21 10:47:13,407 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-21 10:47:13,435 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-21 10:47:19,267 INFO (StartupInfoLogger.java:50)- Starting Application on leitianxiangdeMacBook-Pro.local with PID 71118 (/Users/leitianxiang/Workspaces/intelli/jishitoutiao-api/target/classes started by leitianxiang in /Users/leitianxiang/Workspaces/intelli/jishitoutiao-api)
+2018-06-21 10:47:19,279 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2018-06-21 10:47:19,286 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2018-06-21 10:47:51,879 INFO (CustomerCacheManagerEventListener.java:22)- init ehcache...
+2018-06-21 10:47:51,968 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... org.hibernate.cache.spi.UpdateTimestampsCache
+2018-06-21 10:47:51,969 INFO (CustomerCacheManagerEventListener.java:38)- [ name = org.hibernate.cache.spi.UpdateTimestampsCache status = STATUS_ALIVE eternal = true overflowToDisk = true maxEntriesLocalHeap = 5000 maxEntriesLocalDisk = 0 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 0 timeToIdleSeconds = 0 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 120 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-21 10:47:51,975 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... org.hibernate.cache.internal.StandardQueryCache
+2018-06-21 10:47:51,975 INFO (CustomerCacheManagerEventListener.java:38)- [ name = org.hibernate.cache.internal.StandardQueryCache status = STATUS_ALIVE eternal = false overflowToDisk = true maxEntriesLocalHeap = 5 maxEntriesLocalDisk = 0 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 120 timeToIdleSeconds = 0 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 120 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-21 10:47:51,981 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... entityCache
+2018-06-21 10:47:51,982 INFO (CustomerCacheManagerEventListener.java:38)- [ name = entityCache status = STATUS_ALIVE eternal = false overflowToDisk = true maxEntriesLocalHeap = 10000 maxEntriesLocalDisk = 100000 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 600 timeToIdleSeconds = 300 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 1200 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-21 10:47:52,387 INFO (StartupInfoLogger.java:59)- Started Application in 34.116 seconds (JVM running for 36.208)
+2018-06-21 10:49:30,226 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123","password":"123"}
+2018-06-21 10:49:30,227 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123"}
+2018-06-21 10:49:30,228 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123","password":"123"}
+2018-06-21 10:49:30,228 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123"}
+2018-06-21 10:49:30,379 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: null
+2018-06-21 10:49:30,379 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: 123
+2018-06-21 10:53:37,123 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123","password":"123"}
+2018-06-21 10:53:37,125 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123"}
+2018-06-21 10:53:37,133 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123","password":"123"}
+2018-06-21 10:53:37,133 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123"}
+2018-06-21 10:53:37,134 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: null
+2018-06-21 10:53:37,134 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: 123
+2018-06-21 10:55:51,336 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123","password":"123"}
+2018-06-21 10:55:51,345 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123","password":"123"}
+2018-06-21 10:55:51,347 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: 123
+2018-06-21 10:57:43,438 INFO (CustomerCacheManagerEventListener.java:32)- ehcache dispose...
+2018-06-21 10:57:43,468 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-21 10:57:43,503 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-21 10:57:43,509 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-21 10:57:47,704 INFO (StartupInfoLogger.java:50)- Starting Application on leitianxiangdeMacBook-Pro.local with PID 71495 (/Users/leitianxiang/Workspaces/intelli/jishitoutiao-api/target/classes started by leitianxiang in /Users/leitianxiang/Workspaces/intelli/jishitoutiao-api)
+2018-06-21 10:57:47,754 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2018-06-21 10:57:47,757 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2018-06-21 10:57:57,988 INFO (CustomerCacheManagerEventListener.java:22)- init ehcache...
+2018-06-21 10:57:58,061 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... org.hibernate.cache.spi.UpdateTimestampsCache
+2018-06-21 10:57:58,061 INFO (CustomerCacheManagerEventListener.java:38)- [ name = org.hibernate.cache.spi.UpdateTimestampsCache status = STATUS_ALIVE eternal = true overflowToDisk = true maxEntriesLocalHeap = 5000 maxEntriesLocalDisk = 0 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 0 timeToIdleSeconds = 0 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 120 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-21 10:57:58,068 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... entityCache
+2018-06-21 10:57:58,068 INFO (CustomerCacheManagerEventListener.java:38)- [ name = entityCache status = STATUS_ALIVE eternal = false overflowToDisk = true maxEntriesLocalHeap = 10000 maxEntriesLocalDisk = 100000 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 600 timeToIdleSeconds = 300 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 1200 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-21 10:57:58,074 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... org.hibernate.cache.internal.StandardQueryCache
+2018-06-21 10:57:58,074 INFO (CustomerCacheManagerEventListener.java:38)- [ name = org.hibernate.cache.internal.StandardQueryCache status = STATUS_ALIVE eternal = false overflowToDisk = true maxEntriesLocalHeap = 5 maxEntriesLocalDisk = 0 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 120 timeToIdleSeconds = 0 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 120 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-21 10:57:58,436 INFO (StartupInfoLogger.java:59)- Started Application in 11.997 seconds (JVM running for 13.492)
+2018-06-21 11:05:16,577 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123","password":"123"}
+2018-06-21 11:05:16,580 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123","password":"123"}
+2018-06-21 11:05:16,691 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: 123
+2018-06-21 11:09:43,571 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123","password":"123"}
+2018-06-21 11:09:43,584 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123","password":"123"}
+2018-06-21 11:09:43,587 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: 123
+2018-06-21 11:10:14,554 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-21 11:10:14,555 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-21 11:10:14,556 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-21 19:00:23,508 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123","password":"123"}
+2018-06-21 19:00:23,547 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123","password":"123"}
+2018-06-21 19:00:23,551 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: 123
+2018-06-21 19:02:28,341 INFO (CustomerCacheManagerEventListener.java:32)- ehcache dispose...
+2018-06-21 19:02:28,350 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-21 19:02:28,404 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-21 19:02:28,409 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-21 19:02:37,892 INFO (StartupInfoLogger.java:50)- Starting Application on leitianxiangdeMacBook-Pro.local with PID 86336 (/Users/leitianxiang/Workspaces/intelli/jishitoutiao-api/target/classes started by leitianxiang in /Users/leitianxiang/Workspaces/intelli/jishitoutiao-api)
+2018-06-21 19:02:37,900 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2018-06-21 19:02:37,903 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2018-06-21 19:02:49,666 INFO (CustomerCacheManagerEventListener.java:22)- init ehcache...
+2018-06-21 19:02:49,774 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... entityCache
+2018-06-21 19:02:49,774 INFO (CustomerCacheManagerEventListener.java:38)- [ name = entityCache status = STATUS_ALIVE eternal = false overflowToDisk = true maxEntriesLocalHeap = 10000 maxEntriesLocalDisk = 100000 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 600 timeToIdleSeconds = 300 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 1200 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-21 19:02:49,781 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... org.hibernate.cache.internal.StandardQueryCache
+2018-06-21 19:02:49,781 INFO (CustomerCacheManagerEventListener.java:38)- [ name = org.hibernate.cache.internal.StandardQueryCache status = STATUS_ALIVE eternal = false overflowToDisk = true maxEntriesLocalHeap = 5 maxEntriesLocalDisk = 0 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 120 timeToIdleSeconds = 0 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 120 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-21 19:02:49,787 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... org.hibernate.cache.spi.UpdateTimestampsCache
+2018-06-21 19:02:49,788 INFO (CustomerCacheManagerEventListener.java:38)- [ name = org.hibernate.cache.spi.UpdateTimestampsCache status = STATUS_ALIVE eternal = true overflowToDisk = true maxEntriesLocalHeap = 5000 maxEntriesLocalDisk = 0 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 0 timeToIdleSeconds = 0 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 120 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-21 19:02:50,236 INFO (StartupInfoLogger.java:59)- Started Application in 13.482 seconds (JVM running for 16.693)
+2018-06-21 19:03:11,415 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123","password":"123"}
+2018-06-21 19:03:11,418 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123","password":"123"}
+2018-06-21 19:03:11,524 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: 123
+2018-06-21 19:03:30,338 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-21 19:03:30,339 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-21 19:03:30,340 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-21 19:03:30,423 INFO (UserController.java:389)- loginUser.getRoles().contains("ADMIN"): false
+2018-06-21 19:06:17,012 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123","password":"123"}
+2018-06-21 19:06:17,018 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123","password":"123"}
+2018-06-21 19:06:17,020 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: 123
+2018-06-21 19:07:48,602 INFO (CustomerCacheManagerEventListener.java:32)- ehcache dispose...
+2018-06-21 19:07:48,604 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-21 19:07:48,615 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-21 19:07:48,619 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-21 19:07:58,537 INFO (StartupInfoLogger.java:50)- Starting Application on leitianxiangdeMacBook-Pro.local with PID 86522 (/Users/leitianxiang/Workspaces/intelli/jishitoutiao-api/target/classes started by leitianxiang in /Users/leitianxiang/Workspaces/intelli/jishitoutiao-api)
+2018-06-21 19:07:58,549 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2018-06-21 19:07:58,555 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2018-06-21 19:08:12,574 INFO (CustomerCacheManagerEventListener.java:22)- init ehcache...
+2018-06-21 19:08:12,726 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... org.hibernate.cache.internal.StandardQueryCache
+2018-06-21 19:08:12,727 INFO (CustomerCacheManagerEventListener.java:38)- [ name = org.hibernate.cache.internal.StandardQueryCache status = STATUS_ALIVE eternal = false overflowToDisk = true maxEntriesLocalHeap = 5 maxEntriesLocalDisk = 0 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 120 timeToIdleSeconds = 0 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 120 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-21 19:08:12,737 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... org.hibernate.cache.spi.UpdateTimestampsCache
+2018-06-21 19:08:12,737 INFO (CustomerCacheManagerEventListener.java:38)- [ name = org.hibernate.cache.spi.UpdateTimestampsCache status = STATUS_ALIVE eternal = true overflowToDisk = true maxEntriesLocalHeap = 5000 maxEntriesLocalDisk = 0 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 0 timeToIdleSeconds = 0 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 120 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-21 19:08:12,743 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... entityCache
+2018-06-21 19:08:12,744 INFO (CustomerCacheManagerEventListener.java:38)- [ name = entityCache status = STATUS_ALIVE eternal = false overflowToDisk = true maxEntriesLocalHeap = 10000 maxEntriesLocalDisk = 100000 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 600 timeToIdleSeconds = 300 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 1200 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-21 19:08:13,415 INFO (StartupInfoLogger.java:59)- Started Application in 15.628 seconds (JVM running for 17.606)
+2018-06-21 19:08:34,048 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-21 19:08:34,050 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-21 19:08:34,125 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-21 19:08:34,420 INFO (UserController.java:388)- loginUser.getRoles().contains("ADMIN"): false
+2018-06-21 19:08:34,421 INFO (UserController.java:390)- role.getRoleName: ADMIN
+2018-06-21 19:13:00,942 INFO (CustomerCacheManagerEventListener.java:32)- ehcache dispose...
+2018-06-21 19:13:00,947 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-21 19:13:00,961 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-21 19:13:00,964 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-21 19:13:08,732 INFO (StartupInfoLogger.java:50)- Starting Application on leitianxiangdeMacBook-Pro.local with PID 86712 (/Users/leitianxiang/Workspaces/intelli/jishitoutiao-api/target/classes started by leitianxiang in /Users/leitianxiang/Workspaces/intelli/jishitoutiao-api)
+2018-06-21 19:13:08,737 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2018-06-21 19:13:08,739 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2018-06-21 19:13:19,416 INFO (CustomerCacheManagerEventListener.java:22)- init ehcache...
+2018-06-21 19:13:19,488 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... org.hibernate.cache.spi.UpdateTimestampsCache
+2018-06-21 19:13:19,488 INFO (CustomerCacheManagerEventListener.java:38)- [ name = org.hibernate.cache.spi.UpdateTimestampsCache status = STATUS_ALIVE eternal = true overflowToDisk = true maxEntriesLocalHeap = 5000 maxEntriesLocalDisk = 0 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 0 timeToIdleSeconds = 0 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 120 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-21 19:13:19,495 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... org.hibernate.cache.internal.StandardQueryCache
+2018-06-21 19:13:19,495 INFO (CustomerCacheManagerEventListener.java:38)- [ name = org.hibernate.cache.internal.StandardQueryCache status = STATUS_ALIVE eternal = false overflowToDisk = true maxEntriesLocalHeap = 5 maxEntriesLocalDisk = 0 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 120 timeToIdleSeconds = 0 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 120 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-21 19:13:19,501 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... entityCache
+2018-06-21 19:13:19,502 INFO (CustomerCacheManagerEventListener.java:38)- [ name = entityCache status = STATUS_ALIVE eternal = false overflowToDisk = true maxEntriesLocalHeap = 10000 maxEntriesLocalDisk = 100000 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 600 timeToIdleSeconds = 300 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 1200 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-21 19:13:19,836 INFO (StartupInfoLogger.java:59)- Started Application in 11.772 seconds (JVM running for 12.769)
+2018-06-21 19:13:46,088 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-21 19:13:46,089 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-21 19:13:46,157 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-21 19:15:59,336 INFO (CustomerCacheManagerEventListener.java:32)- ehcache dispose...
+2018-06-21 19:15:59,339 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-21 19:15:59,347 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-21 19:15:59,351 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-21 19:16:01,905 INFO (StartupInfoLogger.java:50)- Starting Application on leitianxiangdeMacBook-Pro.local with PID 86808 (/Users/leitianxiang/Workspaces/intelli/jishitoutiao-api/target/classes started by leitianxiang in /Users/leitianxiang/Workspaces/intelli/jishitoutiao-api)
+2018-06-21 19:16:01,909 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2018-06-21 19:16:01,911 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2018-06-21 19:16:12,000 INFO (CustomerCacheManagerEventListener.java:22)- init ehcache...
+2018-06-21 19:16:12,073 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... org.hibernate.cache.spi.UpdateTimestampsCache
+2018-06-21 19:16:12,074 INFO (CustomerCacheManagerEventListener.java:38)- [ name = org.hibernate.cache.spi.UpdateTimestampsCache status = STATUS_ALIVE eternal = true overflowToDisk = true maxEntriesLocalHeap = 5000 maxEntriesLocalDisk = 0 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 0 timeToIdleSeconds = 0 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 120 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-21 19:16:12,080 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... org.hibernate.cache.internal.StandardQueryCache
+2018-06-21 19:16:12,081 INFO (CustomerCacheManagerEventListener.java:38)- [ name = org.hibernate.cache.internal.StandardQueryCache status = STATUS_ALIVE eternal = false overflowToDisk = true maxEntriesLocalHeap = 5 maxEntriesLocalDisk = 0 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 120 timeToIdleSeconds = 0 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 120 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-21 19:16:12,086 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... entityCache
+2018-06-21 19:16:12,087 INFO (CustomerCacheManagerEventListener.java:38)- [ name = entityCache status = STATUS_ALIVE eternal = false overflowToDisk = true maxEntriesLocalHeap = 10000 maxEntriesLocalDisk = 100000 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 600 timeToIdleSeconds = 300 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 1200 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-21 19:16:12,469 INFO (StartupInfoLogger.java:59)- Started Application in 11.175 seconds (JVM running for 12.14)
+2018-06-21 19:16:17,894 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-21 19:16:17,895 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-21 19:16:17,962 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-21 19:16:35,285 INFO (CustomerCacheManagerEventListener.java:32)- ehcache dispose...
+2018-06-21 19:16:35,286 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-21 19:16:35,292 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-21 19:16:35,294 INFO (CustomerCacheEventListener.java:51)- cache dispose.

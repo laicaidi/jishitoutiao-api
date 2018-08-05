@@ -1,0 +1,227 @@
+2018-06-22 14:49:20,038 INFO (StartupInfoLogger.java:50)- Starting Application on leitianxiangdeMacBook-Pro.local with PID 96849 (/Users/leitianxiang/Workspaces/intelli/jishitoutiao-api/target/classes started by leitianxiang in /Users/leitianxiang/Workspaces/intelli/jishitoutiao-api)
+2018-06-22 14:49:20,060 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2018-06-22 14:49:20,065 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2018-06-22 14:49:59,650 INFO (CustomerCacheManagerEventListener.java:22)- init ehcache...
+2018-06-22 14:49:59,850 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... org.hibernate.cache.spi.UpdateTimestampsCache
+2018-06-22 14:49:59,851 INFO (CustomerCacheManagerEventListener.java:38)- [ name = org.hibernate.cache.spi.UpdateTimestampsCache status = STATUS_ALIVE eternal = true overflowToDisk = true maxEntriesLocalHeap = 5000 maxEntriesLocalDisk = 0 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 0 timeToIdleSeconds = 0 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 120 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-22 14:49:59,878 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... entityCache
+2018-06-22 14:49:59,900 INFO (CustomerCacheManagerEventListener.java:38)- [ name = entityCache status = STATUS_ALIVE eternal = false overflowToDisk = true maxEntriesLocalHeap = 10000 maxEntriesLocalDisk = 100000 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 600 timeToIdleSeconds = 300 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 1200 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-22 14:49:59,955 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... org.hibernate.cache.internal.StandardQueryCache
+2018-06-22 14:49:59,956 INFO (CustomerCacheManagerEventListener.java:38)- [ name = org.hibernate.cache.internal.StandardQueryCache status = STATUS_ALIVE eternal = false overflowToDisk = true maxEntriesLocalHeap = 5 maxEntriesLocalDisk = 0 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 120 timeToIdleSeconds = 0 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 120 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-22 14:50:00,682 INFO (StartupInfoLogger.java:59)- Started Application in 42.586 seconds (JVM running for 46.177)
+2018-06-22 14:52:06,260 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 14:52:18,879 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123","password":"123"}
+2018-06-22 14:52:18,879 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123","password":"123"}
+2018-06-22 14:52:19,057 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: 123
+2018-06-22 14:55:03,732 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123","password":"123"}
+2018-06-22 14:55:03,737 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123","password":"123"}
+2018-06-22 14:55:03,738 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: 123
+2018-06-22 14:56:15,468 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 14:56:15,470 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 14:56:15,470 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 14:57:04,035 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 14:58:01,531 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123","password":"123"}
+2018-06-22 14:58:01,533 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123","password":"123"}
+2018-06-22 14:58:01,535 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: 123
+2018-06-22 14:59:41,333 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 14:59:41,336 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 14:59:41,337 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 15:01:08,109 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 15:01:41,276 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123","password":"123"}
+2018-06-22 15:01:41,278 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123","password":"123"}
+2018-06-22 15:01:41,279 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: 123
+2018-06-22 15:01:51,465 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 15:01:51,466 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 15:01:51,467 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 15:10:19,652 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 15:18:52,120 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 15:19:05,792 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 15:19:31,723 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123","password":"123"}
+2018-06-22 15:19:31,726 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123","password":"123"}
+2018-06-22 15:19:31,735 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: 123
+2018-06-22 15:19:40,559 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 15:19:40,560 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 15:19:40,560 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 15:20:06,706 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 15:31:45,255 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 15:35:41,002 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 15:35:56,167 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123","password":"123"}
+2018-06-22 15:35:56,168 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123","password":"123"}
+2018-06-22 15:35:56,170 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: 123
+2018-06-22 15:36:04,270 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 15:36:04,271 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 15:36:04,272 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 15:52:19,352 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 15:54:40,540 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 15:54:49,816 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 15:59:16,941 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 16:00:15,445 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 16:01:21,255 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 16:01:27,652 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 16:03:10,051 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 16:10:41,764 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 16:23:28,026 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 16:25:03,892 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 16:25:48,129 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 16:25:57,682 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 16:26:28,625 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 16:32:14,241 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 16:35:57,034 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 16:36:13,564 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 16:45:45,528 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123","password":"123"}
+2018-06-22 16:45:45,541 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123","password":"123"}
+2018-06-22 16:45:45,548 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: 123
+2018-06-22 16:46:02,174 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 16:46:02,177 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 16:46:02,178 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 16:46:02,433 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 16:48:38,942 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 16:49:04,454 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 16:49:04,455 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 16:49:04,455 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 16:49:04,614 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 17:02:04,970 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 17:02:21,971 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123","password":"123"}
+2018-06-22 17:02:21,974 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123","password":"123"}
+2018-06-22 17:02:21,978 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: 123
+2018-06-22 17:02:30,817 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 17:02:30,818 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 17:02:30,818 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 17:02:30,978 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 17:03:07,430 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 17:03:25,912 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"letitianixang","password":"password"}
+2018-06-22 17:03:25,913 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"letitianixang","password":"password"}
+2018-06-22 17:03:25,913 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: letitianixang ,password: password
+2018-06-22 17:03:35,569 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 17:03:35,571 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 17:03:35,571 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 17:03:35,728 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 17:03:39,200 INFO (CrawlerSourceController.java:41)- value=/,method=RequestMethod.GET: keyword:  , page_num: 1
+2018-06-22 17:05:47,948 INFO (CustomerCacheManagerEventListener.java:32)- ehcache dispose...
+2018-06-22 17:05:47,996 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-22 17:05:48,070 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-22 17:05:48,081 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-22 17:06:07,791 INFO (StartupInfoLogger.java:50)- Starting Application on leitianxiangdeMacBook-Pro.local with PID 2464 (/Users/leitianxiang/Workspaces/intelli/jishitoutiao-api/target/classes started by leitianxiang in /Users/leitianxiang/Workspaces/intelli/jishitoutiao-api)
+2018-06-22 17:06:07,799 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2018-06-22 17:06:07,809 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2018-06-22 17:06:27,509 INFO (CustomerCacheManagerEventListener.java:22)- init ehcache...
+2018-06-22 17:06:27,832 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... org.hibernate.cache.spi.UpdateTimestampsCache
+2018-06-22 17:06:27,833 INFO (CustomerCacheManagerEventListener.java:38)- [ name = org.hibernate.cache.spi.UpdateTimestampsCache status = STATUS_ALIVE eternal = true overflowToDisk = true maxEntriesLocalHeap = 5000 maxEntriesLocalDisk = 0 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 0 timeToIdleSeconds = 0 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 120 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-22 17:06:27,854 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... org.hibernate.cache.internal.StandardQueryCache
+2018-06-22 17:06:27,855 INFO (CustomerCacheManagerEventListener.java:38)- [ name = org.hibernate.cache.internal.StandardQueryCache status = STATUS_ALIVE eternal = false overflowToDisk = true maxEntriesLocalHeap = 5 maxEntriesLocalDisk = 0 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 120 timeToIdleSeconds = 0 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 120 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-22 17:06:27,905 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... entityCache
+2018-06-22 17:06:27,905 INFO (CustomerCacheManagerEventListener.java:38)- [ name = entityCache status = STATUS_ALIVE eternal = false overflowToDisk = true maxEntriesLocalHeap = 10000 maxEntriesLocalDisk = 100000 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 600 timeToIdleSeconds = 300 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 1200 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-22 17:06:28,786 INFO (StartupInfoLogger.java:59)- Started Application in 22.893 seconds (JVM running for 24.993)
+2018-06-22 17:06:37,681 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123","password":"123"}
+2018-06-22 17:06:37,686 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123","password":"123"}
+2018-06-22 17:06:37,889 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: 123
+2018-06-22 17:06:47,638 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 17:06:47,639 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 17:06:47,639 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 17:06:48,075 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 17:06:53,604 INFO (CrawlerSourceController.java:41)- value=/,method=RequestMethod.GET: keyword:  , page_num: 1
+2018-06-22 17:12:36,428 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 17:12:36,435 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 17:12:36,442 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 17:12:36,791 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 17:12:42,754 INFO (CrawlerSourceController.java:41)- value=/,method=RequestMethod.GET: keyword:  , page_num: 1
+2018-06-22 17:12:46,975 INFO (CrawlerCategoryController.java:46)- value=/,method=RequestMethod.GET: keyword:  , page_num: 1
+2018-06-22 17:20:12,362 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123","password":"123"}
+2018-06-22 17:20:12,395 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123","password":"123"}
+2018-06-22 17:20:12,397 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: 123
+2018-06-22 17:20:38,213 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 17:20:38,215 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 17:20:38,216 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 17:20:38,421 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 17:24:52,068 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 17:25:27,867 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123","password":"123"}
+2018-06-22 17:25:27,868 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123","password":"123"}
+2018-06-22 17:25:27,869 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: 123
+2018-06-22 17:26:18,037 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 17:26:18,040 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 17:26:18,043 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 17:26:18,143 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 17:26:19,890 INFO (CrawlerSourceController.java:41)- value=/,method=RequestMethod.GET: keyword:  , page_num: 1
+2018-06-22 17:26:31,388 INFO (CrawlerSourceController.java:203)- value=/{bid},method=RequestMethod.PUT: bid: 40282981641b13ce01641b5681e90004, param: {"bkey":"sina","bname":"新浪","homepage":"http://www.sina.com","remark":"新浪网"}
+2018-06-22 17:26:31,389 INFO (CrawlerSourceController.java:211)- value=/,method=RequestMethod.POST: originalParam: {"bkey":"sina","bname":"新浪","homepage":"http://www.sina.com","remark":"新浪网"}
+2018-06-22 17:26:31,392 INFO (CrawlerSourceController.java:215)- value=/{bid},method=RequestMethod.PUT: bid: 40282981641b13ce01641b5681e90004 , bkey: sina , bname: 新浪 , homepage: http://www.sina.com , logo: null , remark: 新浪网
+2018-06-22 17:26:31,392 INFO (CrawlerSourceController.java:231)- bkey: sina, Rex: true
+2018-06-22 17:26:31,393 INFO (CrawlerSourceController.java:240)- homepage: http://www.sina.com, Rex: true
+2018-06-22 17:26:31,837 INFO (CustomerCacheEventListener.java:21)- cache put. key = crawlerSource_40282981641b13ce01641b5681e90004, value = CrawlerSource [bid=40282981641b13ce01641b5681e90004, bkey=sina, bname=新浪, homepage=http://www.sina.com, logo=null, remark=新浪网a, lastUpdate=2018-06-20 11:56:51.0]
+2018-06-22 17:26:32,085 INFO (CustomerCacheEventListener.java:16)- cache removed. key = crawlerSource_40282981641b13ce01641b5681e90004, value = CrawlerSource [bid=40282981641b13ce01641b5681e90004, bkey=sina, bname=新浪, homepage=http://www.sina.com, logo=null, remark=新浪网, lastUpdate=2018-06-20 11:56:51.0]
+2018-06-22 18:08:16,746 INFO (CrawlerSourceController.java:203)- value=/{bid},method=RequestMethod.PUT: bid: 40282981641b13ce01641b5681e90004, param: {"bkey":"sina","bname":"新浪","homepage":"http://www.sina.com","remark":"新浪网"}
+2018-06-22 18:08:16,758 INFO (CrawlerSourceController.java:211)- value=/,method=RequestMethod.POST: originalParam: {"bkey":"sina","bname":"新浪","homepage":"http://www.sina.com","remark":"新浪网"}
+2018-06-22 18:08:16,767 INFO (CrawlerSourceController.java:215)- value=/{bid},method=RequestMethod.PUT: bid: 40282981641b13ce01641b5681e90004 , bkey: sina , bname: 新浪 , homepage: http://www.sina.com , logo: null , remark: 新浪网
+2018-06-22 18:08:16,772 INFO (CrawlerSourceController.java:231)- bkey: sina, Rex: true
+2018-06-22 18:08:16,777 INFO (CrawlerSourceController.java:240)- homepage: http://www.sina.com, Rex: true
+2018-06-22 18:08:16,893 INFO (CustomerCacheEventListener.java:21)- cache put. key = crawlerSource_40282981641b13ce01641b5681e90004, value = CrawlerSource [bid=40282981641b13ce01641b5681e90004, bkey=sina, bname=新浪, homepage=http://www.sina.com, logo=null, remark=新浪网, lastUpdate=2018-06-20 11:56:51.0]
+2018-06-22 18:08:16,948 INFO (CustomerCacheEventListener.java:16)- cache removed. key = crawlerSource_40282981641b13ce01641b5681e90004, value = CrawlerSource [bid=40282981641b13ce01641b5681e90004, bkey=sina, bname=新浪, homepage=http://www.sina.com, logo=null, remark=新浪网, lastUpdate=2018-06-20 11:56:51.0]
+2018-06-22 18:08:17,091 INFO (CrawlerSourceController.java:41)- value=/,method=RequestMethod.GET: keyword:  , page_num: 1
+2018-06-22 18:08:39,264 INFO (CrawlerCategoryController.java:46)- value=/,method=RequestMethod.GET: keyword:  , page_num: 1
+2018-06-22 18:08:40,900 INFO (CrawlerManagementController.java:66)- value=/,method=RequestMethod.GET: keyword:  ,bkey:  ,ckey:  ,crawler_status:  ,crawler_switch:  ,page_num: 1
+2018-06-22 18:08:43,101 INFO (CrawlerUserAgentController.java:46)- value=/,method=RequestMethod.GET: keyword:  ,page_num: 1
+2018-06-22 18:08:44,485 INFO (CrawlerDynamicIpController.java:49)- value=/,method=RequestMethod.GET: keyword:  ,protocol:  ,page_num: 1
+2018-06-22 18:08:59,597 INFO (CrawlerDynamicIpController.java:49)- value=/,method=RequestMethod.GET: keyword:  ,protocol:  ,page_num: 1
+2018-06-22 18:08:59,675 INFO (CrawlerDynamicIpController.java:327)- value=/{id},method=RequestMethod.DELETE: id: 402881e763536157016353cf187f0004
+2018-06-22 18:08:59,909 INFO (CustomerCacheEventListener.java:16)- cache removed. key = crawlerDynamicIp402881e763536157016353cf187f0004, value = null
+2018-06-22 18:09:04,544 INFO (CrawlerDynamicIpController.java:327)- value=/{id},method=RequestMethod.DELETE: id: 402881e763536157016353cf187f0004
+2018-06-22 18:09:04,660 ERROR (CrawlerDynamicIpController.java:333)- No class com.jishitoutiao.domain.CrawlerDynamicIp entity with id 402881e763536157016353cf187f0004 exists!
+2018-06-22 18:09:04,781 INFO (CrawlerDynamicIpController.java:49)- value=/,method=RequestMethod.GET: keyword:  ,protocol:  ,page_num: 1
+2018-06-22 18:09:58,338 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"123","password":"123"}
+2018-06-22 18:09:58,339 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"123","password":"123"}
+2018-06-22 18:09:58,340 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: 123 ,password: 123
+2018-06-22 18:10:47,387 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 18:10:47,388 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 18:10:47,389 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 18:10:47,517 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 18:10:49,800 INFO (CrawlerSourceController.java:41)- value=/,method=RequestMethod.GET: keyword:  , page_num: 1
+2018-06-22 18:16:07,846 INFO (CrawlerCategoryController.java:46)- value=/,method=RequestMethod.GET: keyword:  , page_num: 1
+2018-06-22 18:16:10,611 INFO (CrawlerSourceController.java:41)- value=/,method=RequestMethod.GET: keyword:  , page_num: 1
+2018-06-22 18:22:26,083 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 18:22:26,088 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 18:22:26,091 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 18:22:26,269 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 18:23:24,448 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 18:23:24,450 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 18:23:24,450 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 18:23:24,572 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 18:26:14,605 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 18:26:14,606 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 18:26:14,607 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 18:26:14,736 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 18:26:38,833 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 18:26:54,369 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 18:26:54,370 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 18:26:54,371 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 18:26:54,532 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 18:27:00,549 INFO (CrawlerSourceController.java:41)- value=/,method=RequestMethod.GET: keyword:  , page_num: 1
+2018-06-22 18:29:28,224 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 18:29:28,225 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 18:29:28,226 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 18:29:28,484 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 18:29:41,811 INFO (CrawlerSourceController.java:41)- value=/,method=RequestMethod.GET: keyword:  , page_num: 1
+2018-06-22 18:32:02,781 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 18:32:02,783 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 18:32:02,783 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 18:32:03,043 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 18:32:08,733 INFO (CrawlerSourceController.java:41)- value=/,method=RequestMethod.GET: keyword:  , page_num: 1
+2018-06-22 18:33:44,899 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 18:33:44,900 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 18:33:44,902 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 18:33:45,033 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 18:33:48,721 INFO (CrawlerSourceController.java:41)- value=/,method=RequestMethod.GET: keyword:  , page_num: 1
+2018-06-22 18:35:34,502 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 18:35:34,503 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 18:35:34,505 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 18:35:34,653 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 18:35:40,026 INFO (CrawlerSourceController.java:41)- value=/,method=RequestMethod.GET: keyword:  , page_num: 1
+2018-06-22 18:57:20,404 INFO (UserController.java:344)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiang","password":"password"}
+2018-06-22 18:57:20,425 INFO (UserController.java:351)- value=/,method=RequestMethod.POST: originalParam: {"username":"leitianxiang","password":"password"}
+2018-06-22 18:57:20,428 INFO (UserController.java:355)- value=/,method=RequestMethod.POST: username: leitianxiang ,password: password
+2018-06-22 18:57:20,743 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-22 18:57:35,959 INFO (CrawlerSourceController.java:41)- value=/,method=RequestMethod.GET: keyword:  , page_num: 1
+2018-06-22 18:57:49,220 INFO (CrawlerCategoryController.java:46)- value=/,method=RequestMethod.GET: keyword:  , page_num: 1
+2018-06-22 18:58:12,562 INFO (CustomerCacheManagerEventListener.java:32)- ehcache dispose...
+2018-06-22 18:58:12,570 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-22 18:58:12,632 INFO (CustomerCacheEventListener.java:51)- cache dispose.
+2018-06-22 18:58:12,635 INFO (CustomerCacheEventListener.java:51)- cache dispose.

@@ -1,0 +1,29 @@
+2018-06-29 11:14:37,969 INFO (StartupInfoLogger.java:50)- Starting Application on leitianxiangdeMacBook-Pro.local with PID 50353 (/Users/leitianxiang/Workspaces/intelli/jishitoutiao-api/target/classes started by leitianxiang in /Users/leitianxiang/Workspaces/intelli/jishitoutiao-api)
+2018-06-29 11:14:38,013 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2018-06-29 11:14:38,017 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2018-06-29 11:15:10,650 INFO (CustomerCacheManagerEventListener.java:22)- init ehcache...
+2018-06-29 11:15:10,771 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... org.hibernate.cache.internal.StandardQueryCache
+2018-06-29 11:15:10,772 INFO (CustomerCacheManagerEventListener.java:38)- [ name = org.hibernate.cache.internal.StandardQueryCache status = STATUS_ALIVE eternal = false overflowToDisk = true maxEntriesLocalHeap = 5 maxEntriesLocalDisk = 0 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 120 timeToIdleSeconds = 0 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 120 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-29 11:15:10,782 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... org.hibernate.cache.spi.UpdateTimestampsCache
+2018-06-29 11:15:10,783 INFO (CustomerCacheManagerEventListener.java:38)- [ name = org.hibernate.cache.spi.UpdateTimestampsCache status = STATUS_ALIVE eternal = true overflowToDisk = true maxEntriesLocalHeap = 5000 maxEntriesLocalDisk = 0 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 0 timeToIdleSeconds = 0 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 120 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-29 11:15:10,789 INFO (CustomerCacheManagerEventListener.java:37)- cacheAdded... entityCache
+2018-06-29 11:15:10,790 INFO (CustomerCacheManagerEventListener.java:38)- [ name = entityCache status = STATUS_ALIVE eternal = false overflowToDisk = true maxEntriesLocalHeap = 10000 maxEntriesLocalDisk = 100000 memoryStoreEvictionPolicy = LRU timeToLiveSeconds = 600 timeToIdleSeconds = 300 persistence = LOCALTEMPSWAP diskExpiryThreadIntervalSeconds = 1200 cacheEventListeners: com.jishitoutiao.cache.CustomerCacheEventListener ; orderedCacheEventListeners:  maxBytesLocalHeap = 0 overflowToOffHeap = false maxBytesLocalOffHeap = 0 maxBytesLocalDisk = 0 pinned = false ]
+2018-06-29 11:15:11,355 INFO (StartupInfoLogger.java:59)- Started Application in 34.593 seconds (JVM running for 35.969)
+2018-06-29 11:15:29,189 INFO (UserController.java:349)- value=/login,method=RequestMethod.POST: param: {"username":"leitianxiangAD","password":"OTlhM2JlZDRjMDE0YzU5MTFjOTg3MDZkNjEzYTMxMWI="}
+2018-06-29 11:15:29,190 INFO (UserController.java:356)- value=/login,method=RequestMethod.POST: originalParam: {"username":"leitianxiangAD","password":"OTlhM2JlZDRjMDE0YzU5MTFjOTg3MDZkNjEzYTMxMWI="}
+2018-06-29 11:15:29,273 INFO (UserController.java:360)- value=/login,method=RequestMethod.POST: username: leitianxiangAD ,password: OTlhM2JlZDRjMDE0YzU5MTFjOTg3MDZkNjEzYTMxMWI=
+2018-06-29 11:15:30,027 INFO (MetaController.java:52)- value=/,method=RequestMethod.GET:
+2018-06-29 11:15:31,865 INFO (CrawlerSourceController.java:41)- value=/,method=RequestMethod.GET: keyword:  , page_num: 1
+2018-06-29 11:15:33,397 INFO (CrawlerCategoryController.java:46)- value=/,method=RequestMethod.GET: keyword:  , page_num: 1
+2018-06-29 11:15:34,245 INFO (CrawlerManagementController.java:66)- value=/,method=RequestMethod.GET: keyword:  ,bkey:  ,ckey:  ,crawler_status:  ,crawler_switch:  ,page_num: 1
+2018-06-29 11:15:35,502 INFO (CrawlerUserAgentController.java:46)- value=/,method=RequestMethod.GET: keyword:  ,page_num: 1
+2018-06-29 11:15:36,591 INFO (CrawlerDynamicIpController.java:49)- value=/,method=RequestMethod.GET: keyword:  ,protocol:  ,page_num: 1
+2018-06-29 11:15:37,787 INFO (CrawlerSetController.java:46)- value=/,method=RequestMethod.GET: keyword:  ,page_num: 1
+2018-06-29 11:15:40,969 INFO (InformationOutputArticleController.java:67)- value=/,method=RequestMethod.GET: keyword:  ,bkey:  ,ckey:  ,page_num: 1
+2018-06-29 11:15:41,020 INFO (RedisService.java:79)- getStr(String key) method run, key: string:information_output_article:status
+2018-06-29 11:15:41,113 INFO (RedisService.java:79)- getStr(String key) method run, key: string:information_output_article:batch
+2018-06-29 11:15:44,318 INFO (UserController.java:65)- value=/,method=RequestMethod.GET: keyword:  ,page_num: 1
+2018-06-29 11:15:49,164 INFO (CrawlerSourceController.java:41)- value=/,method=RequestMethod.GET: keyword:  , page_num: 1
+2018-06-29 11:15:56,461 INFO (CrawlerSourceController.java:284)- value=/{bid},method=RequestMethod.DELETE: bid: 402829816251ea92016251f8584d0002
+2018-06-29 11:15:56,598 INFO (CustomerCacheEventListener.java:16)- cache removed. key = crawlerSource_402829816251ea92016251f8584d0002, value = null
+2018-06-29 11:15:56,684 INFO (CrawlerSourceController.java:41)- value=/,method=RequestMethod.GET: keyword: undefined , page_num: undefined
