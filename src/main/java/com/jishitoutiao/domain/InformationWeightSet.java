@@ -21,16 +21,6 @@ import org.hibernate.annotations.GenericGenerator;
 @Entity
 @Table(name="information_weight_set")
 public class InformationWeightSet implements Serializable {
-	/*
-create table information_weight_set
-(
-	sid varchar(40) comment '设置id' primary key,
-	wkey varchar(20) comment '键' unique not null,
-	wvalue double comment '值' not null,
-	remark varchar(100) comment '备注',
-	last_update timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-)character set utf8 collate utf8_general_ci;
-	 */
 	@Id
 	@GeneratedValue(generator="uuid")
 	@GenericGenerator(name="uuid",strategy="uuid")

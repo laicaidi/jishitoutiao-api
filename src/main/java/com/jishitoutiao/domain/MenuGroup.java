@@ -21,16 +21,6 @@ import org.hibernate.annotations.GenericGenerator;
 @Entity
 @Table(name="menu_group")
 public class MenuGroup implements Serializable {
-	/*
-CREATE TABLE menu_group
-(
-	group_id VARCHAR(40) COMMENT '组id' PRIMARY KEY,
-	group_index INT COMMENT '组排序编号' UNIQUE NOT NULL,
-	group_key VARCHAR(20) COMMENT '组key' UNIQUE NOT NULL,
-	group_name VARCHAR(20) COMMENT '组名称' UNIQUE NOT NULL,
-	last_update timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-)CHARACTER SET utf8 COLLATE utf8_general_ci;
-	 */
 	@Id
 	@GeneratedValue(generator="uuid")
 	@GenericGenerator(name="uuid",strategy="uuid")
