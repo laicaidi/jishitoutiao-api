@@ -3,15 +3,164 @@
   <component name="ChangeListManager">
     <list default="true" id="6e191b4b-7903-4439-9688-9e359f428269" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/domain/InformationIllegalitySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/domain/InformationIllegalitySet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/domain/InformationWeightSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/domain/InformationWeightSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/domain/MenuGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/domain/MenuGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/domain/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/domain/MenuItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback-boot.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback-boot.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationIllegalitySet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationIllegalitySet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationWeightSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationWeightSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/MenuGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/MenuGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/MenuItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerCategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerCategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerDynamicIpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerDynamicIpService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerManagementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerSetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerSetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerSourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerSourceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerUserAgentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerUserAgentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationCommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationCommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationIllegalityPondService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationIllegalityPondService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationIllegalityResultService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationIllegalityResultService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationIllegalitySetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationIllegalitySetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationOutputArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationOutputArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationOutputListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationOutputListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationRepetitionPondService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationRepetitionPondService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationRepetitionResultService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationRepetitionResultService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationSourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationSourceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightFiltrateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightFiltrateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightSetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightSetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightSortService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightSortService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightSourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightSourceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jishitoutiao/test/RoleServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jishitoutiao/test/RoleServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jishitoutiao/test/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jishitoutiao/test/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/cache/CustomerCacheEventListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/cache/CustomerCacheEventListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/cache/CustomerCacheEventListenerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/cache/CustomerCacheEventListenerFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/cache/CustomerCacheManagerEventListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/cache/CustomerCacheManagerEventListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/cache/CustomerCacheManagerEventListenerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/cache/CustomerCacheManagerEventListenerFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/CrawlerCategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/CrawlerCategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/CrawlerDynamicIpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/CrawlerDynamicIpController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/CrawlerManagementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/CrawlerManagementController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/CrawlerSetController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/CrawlerSetController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/CrawlerSourceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/CrawlerSourceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/CrawlerUserAgentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/CrawlerUserAgentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationCommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationCommentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationIllegalityPondController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationIllegalityPondController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationIllegalityResultController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationIllegalityResultController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationIllegalitySetController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationIllegalitySetController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationOutputArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationOutputArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationOutputListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationOutputListController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationRepetitionPondController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationRepetitionPondController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationRepetitionResultController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationRepetitionResultController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationSourceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationSourceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationWeightFiltrateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationWeightFiltrateController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationWeightSetController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationWeightSetController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationWeightSortController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationWeightSortController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationWeightSourceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/InformationWeightSourceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dao/RoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dao/RoleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dao/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dao/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/CrawlerCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/CrawlerCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/CrawlerDynamicIp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/CrawlerDynamicIp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/CrawlerManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/CrawlerManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/CrawlerSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/CrawlerSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/CrawlerSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/CrawlerSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/CrawlerUserAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/CrawlerUserAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationIllegalityPond.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationIllegalityPond.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationIllegalityResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationIllegalityResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationOutputArticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationOutputArticle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationOutputList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationOutputList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationRepetitionPond.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationRepetitionPond.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationRepetitionResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationRepetitionResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationWeightFiltrate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationWeightFiltrate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationWeightSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationWeightSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationWeightSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/InformationWeightSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/AuthenticationResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/AuthenticationResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/PlatformMeta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/PlatformMeta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TableColumn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TableColumn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferCrawlerCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferCrawlerCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferCrawlerCategoryList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferCrawlerCategoryList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferCrawlerDynamicIp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferCrawlerDynamicIp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferCrawlerManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferCrawlerManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferCrawlerSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferCrawlerSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferCrawlerSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferCrawlerSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferCrawlerSourceOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferCrawlerSourceOption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferCrawlerUserAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferCrawlerUserAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationIllegalityPond.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationIllegalityPond.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationIllegalityResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationIllegalityResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationIllegalitySet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationIllegalitySet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationOutputArticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationOutputArticle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationOutputList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationOutputList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationRepetitionPond.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationRepetitionPond.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationRepetitionResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationRepetitionResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationWeightFiltrate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationWeightFiltrate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationWeightSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationWeightSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationWeightSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationWeightSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationWeightSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferInformationWeightSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferMenuGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferMenuGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferMenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferMenuItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/dto/TransferUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/redis/service/RedisService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/redis/service/RedisService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/rely/CrawlerStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/rely/CrawlerStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/rely/CrawlerSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/rely/CrawlerSwitch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/rely/DataResponse$Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/rely/DataResponse$Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/rely/DataResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/rely/DataResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/rely/PageObj.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/rely/PageObj.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/rely/Protocol.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/rely/Protocol.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/rely/Sex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/rely/Sex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/rely/Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/rely/Type.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerCategoryService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerCategoryService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerCategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerCategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerDynamicIpService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerDynamicIpService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerDynamicIpService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerDynamicIpService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerManagementService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerManagementService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerManagementService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerManagementService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerSetService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerSetService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerSetService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerSetService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerSourceService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerSourceService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerSourceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerSourceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerUserAgentService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerUserAgentService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerUserAgentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/CrawlerUserAgentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationCommentService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationCommentService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationCommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationCommentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationIllegalityPondService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationIllegalityPondService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationIllegalityPondService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationIllegalityPondService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationIllegalityResultService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationIllegalityResultService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationIllegalityResultService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationIllegalityResultService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationIllegalitySetService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationIllegalitySetService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationIllegalitySetService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationIllegalitySetService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationOutputArticleService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationOutputArticleService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationOutputArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationOutputArticleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationOutputListService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationOutputListService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationOutputListService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationOutputListService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationRepetitionPondService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationRepetitionPondService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationRepetitionPondService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationRepetitionPondService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationRepetitionResultService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationRepetitionResultService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationRepetitionResultService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationRepetitionResultService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationSourceService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationSourceService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationSourceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationSourceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationWeightFiltrateService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationWeightFiltrateService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationWeightFiltrateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationWeightFiltrateService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationWeightSetService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationWeightSetService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationWeightSetService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationWeightSetService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationWeightSortService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationWeightSortService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationWeightSortService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationWeightSortService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationWeightSourceService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationWeightSourceService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationWeightSourceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/InformationWeightSourceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/MenuGroupService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/MenuGroupService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/MenuGroupService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/MenuGroupService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/MenuItemService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/MenuItemService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/MenuItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/MenuItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/RoleService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/RoleService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/RoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/UserService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/UserService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jishitoutiao/util/CryptUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jishitoutiao/util/CryptUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jishitoutiao-api.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/jishitoutiao-api.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jishitoutiao-api/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/jishitoutiao-api/WEB-INF/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jishitoutiao/test/RoleServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jishitoutiao/test/RoleServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jishitoutiao/test/UserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jishitoutiao/test/UserServiceTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,38 +190,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CryptUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/util/CryptUtils.java">
+      <file leaf-file-name="CrawlerSourceService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerSourceService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="202">
+              <caret line="124" selection-start-line="124" selection-end-line="125" selection-end-column="137" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JwtTokenUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/util/JwtTokenUtil.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-891">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logback-boot.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/logback-boot.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+            <state relative-caret-position="157">
+              <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -149,31 +280,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightFiltrateService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightSetService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightSortService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightSourceService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/MenuGroupService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/MenuItemService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/RoleService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jishitoutiao/test/RoleServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/dao/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/util/CryptUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jishitoutiao/test/UserServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/dto/TransferUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/config/WebMvcConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/filter/JwtAuthenticationTokenFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/config/CORSConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/controller/CrawlerCategoryController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/controller/CrawlerDynamicIpController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/controller/CrawlerManagementController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/controller/CrawlerSetController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/controller/CrawlerSourceController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/controller/CrawlerUserAgentController.java" />
@@ -200,6 +306,31 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/domain/MenuGroup.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/domain/MenuItem.java" />
         <option value="$PROJECT_DIR$/src/main/resources/logback-boot.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jishitoutiao/test/RoleServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jishitoutiao/test/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerSourceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerCategoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerDynamicIpService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerManagementService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerSetService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerUserAgentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationCommentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationIllegalityPondService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationIllegalityResultService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationIllegalitySetService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationOutputArticleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationOutputListService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationRepetitionPondService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationRepetitionResultService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationSourceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightFiltrateService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightSetService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightSortService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightSourceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -255,7 +386,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
@@ -288,27 +418,21 @@
               <item name="jishitoutiao-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jishitoutiao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jishitoutiao-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jishitoutiao-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jishitoutiao-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jishitoutiao-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jishitoutiao-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jishitoutiao-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,6 +482,29 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="RoleServiceTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jishitoutiao-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jishitoutiao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jishitoutiao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.jishitoutiao.test.RoleServiceTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="UserServiceTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jishitoutiao-api" />
       <extension name="coverage">
@@ -394,29 +541,6 @@
       <option name="PACKAGE_NAME" value="com.jishitoutiao.test" />
       <option name="MAIN_CLASS_NAME" value="com.jishitoutiao.test.UserServiceTest" />
       <option name="METHOD_NAME" value="testBCryptPassSame" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="UserServiceTest.testMdtPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jishitoutiao-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jishitoutiao.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.jishitoutiao.test" />
-      <option name="MAIN_CLASS_NAME" value="com.jishitoutiao.test.UserServiceTest" />
-      <option name="METHOD_NAME" value="testMdtPassword" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -500,18 +624,18 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="JUnit.UserServiceTest.testMdtPassword" />
       <item itemvalue="JUnit.UserServiceTest.testPass" />
       <item itemvalue="JUnit.UserServiceTest.testBCryptPassSame" />
       <item itemvalue="JUnit.UserServiceTest.testAdd" />
+      <item itemvalue="JUnit.RoleServiceTest.testAdd" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Application" />
         <item itemvalue="JUnit.UserServiceTest.testAdd" />
+        <item itemvalue="JUnit.RoleServiceTest.testAdd" />
         <item itemvalue="JUnit.UserServiceTest.testBCryptPassSame" />
         <item itemvalue="JUnit.UserServiceTest.testPass" />
-        <item itemvalue="JUnit.UserServiceTest.testMdtPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -539,20 +663,13 @@
       <workItem from="1531385312828" duration="382000" />
       <workItem from="1532754363970" duration="340000" />
       <workItem from="1532857055022" duration="20130000" />
-      <workItem from="1533522976721" duration="849000" />
+      <workItem from="1533522976721" duration="2181000" />
+      <workItem from="1535195225792" duration="2208000" />
+      <workItem from="1535355166703" duration="6165000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserServiceTest_testBCryptPassSame - 2018.06.23 at 20h 12m 19s.xml">
-      <configuration name="UserServiceTest.testBCryptPassSame" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceTest_testAdd - 2018.06.23 at 20h 16m 52s.xml">
-      <configuration name="UserServiceTest.testAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoleServiceTest_testAdd - 2018.06.23 at 20h 40m 20s.xml">
-      <configuration name="RoleServiceTest.testAdd" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserServiceTest_testMdtPassword - 2018.06.23 at 22h 38m 21s.xml">
       <configuration name="UserServiceTest.testMdtPassword" configurationId="JUnit" />
     </history-entry>
@@ -574,9 +691,18 @@
     <history-entry file="UserServiceTest_testAdd - 2018.06.24 at 17h 15m 47s.xml">
       <configuration name="UserServiceTest.testAdd" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RoleServiceTest_testAdd - 2018.08.26 at 14h 06m 57s.xml">
+      <configuration name="RoleServiceTest.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleServiceTest_testAdd - 2018.08.26 at 14h 08m 58s.xml">
+      <configuration name="RoleServiceTest.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_testAdd - 2018.08.26 at 14h 15m 23s.xml">
+      <configuration name="UserServiceTest.testAdd" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246751000" />
+    <option name="totallyTimeSpent" value="256456000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="741" extended-state="0" />
@@ -594,15 +720,16 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32919255" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39130434" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32919255" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31663975" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3263328" />
       <window_info anchor="bottom" id="Problems" order="11" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.32956383" />
       <window_info id="Web" order="6" side_tool="true" />
@@ -611,7 +738,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32919255" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
@@ -639,69 +765,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/dto/TransferInformationIllegalityPond.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/dto/TransferInformationIllegalityResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/dto/TransferInformationIllegalitySet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/dto/TransferInformationOutputArticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/dto/TransferInformationOutputList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/dto/TransferInformationRepetitionPond.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/dto/TransferInformationRepetitionResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/dto/TransferInformationSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/dto/TransferInformationWeightFiltrate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/dto/TransferInformationWeightSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -779,13 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/rely/PageObj.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-591">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/rely/Protocol.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -814,157 +870,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerCategoryService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/util/JwtTokenUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1191">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerDynamicIpService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-557">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerManagementService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2256">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerSetService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1236">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerSourceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1236">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationCommentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1566">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerUserAgentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="135" column="7" lean-forward="true" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationIllegalityResultService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2166">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationIllegalitySetService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1311">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationOutputListService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2076">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationOutputArticleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2076">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationRepetitionPondService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2166">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationRepetitionResultService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2166">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightFiltrateService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2151">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationSourceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2061">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightSetService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1311">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightSortService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2121">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightSourceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2121">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/MenuGroupService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-801">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/MenuItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-801">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1326">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1672">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="-891">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -975,17 +884,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/util/JwtTokenUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jishitoutiao/test/RoleServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-891">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="174">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jishitoutiao/test/UserServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="358">
+          <caret line="49" column="33" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -993,6 +902,221 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/mylog.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-863" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/bos_repository/org/springframework/data/spring-data-commons/2.0.7.RELEASE/spring-data-commons-2.0.7.RELEASE.jar!/org/springframework/data/domain/PageRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/controller/CrawlerSourceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-535">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/rely/PageObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/bos_repository/org/springframework/data/spring-data-commons/2.0.7.RELEASE/spring-data-commons-2.0.7.RELEASE-sources.jar!/org/springframework/data/domain/PageRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="121" column="8" selection-start-line="121" selection-start-column="8" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerDynamicIpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerManagementService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="134" column="8" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerSetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="121" column="8" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerUserAgentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="121" column="8" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationCommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-558">
+          <caret line="118" column="8" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationIllegalityPondService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-978">
+          <caret line="125" column="8" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationIllegalityResultService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="125" column="8" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationIllegalitySetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationOutputArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="127" column="8" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationOutputListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="125" column="8" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationRepetitionPondService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="125" column="8" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationRepetitionResultService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="125" column="8" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationSourceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="125" column="8" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightFiltrateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="125" column="8" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightSetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="121" column="8" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightSortService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="125" column="8" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/InformationWeightSourceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="125" column="8" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/MenuGroupService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1053">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/MenuItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1053">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="121" column="8" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="123" column="8" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jishitoutiao/service/CrawlerSourceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="124" selection-start-line="124" selection-end-line="125" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
         </state>
       </provider>
     </entry>

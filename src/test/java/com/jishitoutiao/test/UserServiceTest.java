@@ -36,7 +36,7 @@ public class UserServiceTest extends BaseJunit4Test {
 	@Test
 	public void testAdd() throws ParseException {
 
-		String time = "2018-03-03 03:03:03";
+		String time = "2018-08-26 14:14:14";
 		Date registrationTime = null;
 		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		registrationTime = df.parse(time);
@@ -47,8 +47,7 @@ public class UserServiceTest extends BaseJunit4Test {
 		roleSet.add(role);
 		user.setRoles(roleSet);
 
-		user.setHeadPortrait("touxiang");
-		user.setUsername("leitianxiangAD");
+		user.setUsername("UTadmin");
 		user.setPassword("$2a$10$vIqEAWnoQvDGM.vXemOisOAQJH0hCsDOMpUnYhM19TehWbE6yRUpe");
 		user.setPhone("13683365443");
 		user.setSex(Sex.MALE);

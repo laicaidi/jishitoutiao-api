@@ -30,7 +30,7 @@ public class RoleServiceTest extends BaseJunit4Test {
 
 
 		Role role = new Role();
-		role.setRoleName("GUEST");
+		role.setRoleName("ADMIN");
 
 		try {
 			roleService.save(role);

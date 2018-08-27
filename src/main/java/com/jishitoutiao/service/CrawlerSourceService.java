@@ -1,8 +1,11 @@
 package com.jishitoutiao.service;
 
+import com.jishitoutiao.controller.CrawlerSourceController;
 import com.jishitoutiao.dao.CrawlerSourceRepository;
 import com.jishitoutiao.domain.CrawlerSource;
 import com.jishitoutiao.rely.PageObj;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
@@ -25,6 +28,9 @@ import java.util.List;
  */
 @Service
 public class CrawlerSourceService {
+
+    private Logger logger = LoggerFactory.getLogger(CrawlerSourceService.class);
+
     // ehcache的name
     private final String CACHE_NAME = "entityCache";
 
@@ -116,8 +122,8 @@ public class CrawlerSourceService {
             pageObj = new PageObj<CrawlerSource>(Integer.parseInt(pageNum), totalRecord);
         }
 
-        // 3.创建查询所需的PageRequest对象
-        Pageable pageable = PageRequest.of(pageObj.getStartIndex(), pageObj.getPageSize(), new Sort(Sort.Direction.DESC, "lastUpdate"));
+        // 3.创建查询所需的PageRequest对象,PageRequest的page从0开始算,所以需要-1
+        Pageable pageable = PageRequest.of(pageObj.getPageNum() - 1, pageObj.getPageSize(), new Sort(Sort.Direction.DESC, "lastUpdate"));
 
         // 4.查询数据并将list赋值给页面数据对象
         Page<CrawlerSource> allCrawlerSource = crawlerSourceRepository.findAll(getWhereClause(keyword), pageable);

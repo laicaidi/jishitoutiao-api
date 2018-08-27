@@ -132,8 +132,8 @@ public class CrawlerManagementService {
             pageObj = new PageObj<CrawlerManagement>(Integer.parseInt(pageNum), totalRecord);
         }
 
-        // 3.创建查询所需的PageRequest对象
-        Pageable pageable = PageRequest.of(pageObj.getStartIndex(), pageObj.getPageSize(), new Sort(Sort.Direction.DESC, "lastUpdate"));
+        // 3.创建查询所需的PageRequest对象,PageRequest的page从0开始算,所以需要-1
+        Pageable pageable = PageRequest.of(pageObj.getPageNum() - 1, pageObj.getPageSize(), new Sort(Sort.Direction.DESC, "lastUpdate"));
 
         // 4.查询数据并将list赋值给页面数据对象
         Page<CrawlerManagement> allCrawlerManagement = crawlerManagementRepository.findAll(getWhereClause(keyword, bkey, ckey, crawlerStatus, crawlerSwitch), pageable);
